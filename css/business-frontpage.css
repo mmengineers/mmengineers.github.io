@@ -24,9 +24,10 @@ img.logo {
 }
 
 .business-header {
-  height: 50vh;
+  height: 90vh;
   min-height: 300px;
-  background: url('http://placehold.it/1920x400') center center no-repeat scroll;
+  /*background: url('http://placehold.it/1920x400') center center no-repeat scroll;*/
+  background-color: #8b0501;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -38,11 +39,18 @@ img.logo {
 }
 
 .carousel-item {
-	height: 50vh;
+	height: 90vh;
 	min-height: 300px;
 	background: no-repeat center center scroll;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
+	background-size: 90vw 90vh;
 }
+
+.carousel-item.small {
+	height: 400px;
+	max-width: 100%;
+	background-size: 100% 100%;
+}
+
