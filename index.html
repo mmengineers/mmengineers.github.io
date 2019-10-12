@@ -20,262 +20,502 @@
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/business-frontpage.css" rel="stylesheet">
+	<link href="css/business-frontpage.css?v=1.1" rel="stylesheet">
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+	<!-- Bootstrap core CSS -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Material Design Bootstrap -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/css/mdb.min.css" rel="stylesheet">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+	<!-- JQuery -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<!-- Bootstrap tooltips -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+	<!-- Bootstrap core JavaScript -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<!-- MDB core JavaScript -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/js/mdb.min.js"></script>
+
+	<script src="js/main.js"></script>
 
   </head>
 
   <body>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark my-red-bg fixed-top">
-      <div class="container">
+	  <!-- Navigation -->
+	  <nav class="navbar navbar-expand-lg navbar-dark my-red-bg fixed-top">
+	  <div class="container">
 		  <a class="navbar-brand" href="#"><img class='logo' src="./images/logo.jpg" style="" alt="MM"> Engineers</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#services">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarResponsive">
+			  <ul class="navbar-nav ml-auto">
+				  <li class="nav-item">
+				  <a class="nav-link" href="#burner_spares">Burner Spares</a>
+				  </li>
+				  <li class="nav-item">
+				  <a class="nav-link" href="#cctv_system_nw">CCTV/System network</a>
+				  </li>
+				  <li class="nav-item">
+				  <a class="nav-link" href="#electrical">Electrical</a>
+				  </li>
+				  <li class="nav-item">
+				  <a class="nav-link" href="#home_automation">Home Automation</a>
+				  </li>
+				  <li class="nav-item">
+				  <a class="nav-link" href="#interiors">Interiors</a>
+				  </li>
+				  <li class="nav-item">
+				  <a class="nav-link" href="#our_projects">Our Projects</a>
+				  </li>
+			  </ul>
+		  </div>
+	  </div>
 	  </nav>
 
 	  <header class="business-header my-red-bg">
-	  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-		  <ol class="carousel-indicators">
-			  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-			  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-			  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-		  </ol>
-		  <div class="carousel-inner" role="listbox">
-			  <!-- Slide One - Set the background image for this slide in the line below -->
-			  <div class="carousel-item active" style="background-image: url('./images/main.jpg')">
-				  <div class="carousel-caption d-none d-md-block">
+	  <div class="row my-red-bg">
+		  <div class="col-md-6">
+			  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+				  <ol class="carousel-indicators">
+					  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+					  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+					  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+				  </ol>
+				  <div class="carousel-inner" role="listbox">
+					  <!-- Slide One - Set the background image for this slide in the line below -->
+					  <div class="carousel-item active" style="background-image: url('./images/main.jpg')">
+						  <div class="carousel-caption d-none d-md-block">
+						  </div>
+					  </div>
+					  <!-- Slide Two - Set the background image for this slide in the line below -->
+					  <div class="carousel-item" style="background-image: url('./images/services1.jpg')">
+						  <div class="carousel-caption d-none d-md-block">
+						  </div>
+					  </div>
+					  <!-- Slide Three - Set the background image for this slide in the line below -->
+					  <div class="carousel-item" style="background-image: url('./images/services2.jpg')">
+						  <div class="carousel-caption d-none d-md-block">
+						  </div>
+					  </div>
 				  </div>
-			  </div>
-			  <!-- Slide Two - Set the background image for this slide in the line below -->
-			  <div class="carousel-item" style="background-image: url('./images/services1.jpg')">
-				  <div class="carousel-caption d-none d-md-block">
-				  </div>
-			  </div>
-			  <!-- Slide Three - Set the background image for this slide in the line below -->
-			  <div class="carousel-item" style="background-image: url('./images/services2.jpg')">
-				  <div class="carousel-caption d-none d-md-block">
-				  </div>
+				  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+					  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					  <span class="sr-only">Previous</span>
+				  </a>
+				  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+					  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					  <span class="sr-only">Next</span>
+				  </a>
 			  </div>
 		  </div>
-		  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-			  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			  <span class="sr-only">Previous</span>
-		  </a>
-		  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-			  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-			  <span class="sr-only">Next</span>
-		  </a>
+		  <div class="col-md-6">
+			  <div id="contact" class="col">
+				  <h2 class="mt-6">Contact us @</h2>
+				  <address>
+					  <strong>MM Engineers Trichy</strong>
+					  <br>2/35, Jeevanantham St,
+					  <br>Oil Mill Bus Stop,
+					  <br>Trichy, Tamil Nadu - 10
+					  <br>
+				  </address>
+				  <address>
+					  <span>Mobile: </span><span>+91 - 90942 33664</span>
+					  <br>
+					  <span>Email: </span><span><a style="color: white;" href="mailto:mmengineerstrichy@gmail.com">mmengineerstrichy@gmail.com</a></span>
+				  </address>
+			  </div>
+		  </div>
+
 	  </div>
 	  </header>
 
-    <!-- Page Content -->
-    <div class="container">
+	  <!-- Page Content -->
+	  <div class="container">
 
-      <div class="row">
-        <div id="services" class="col-sm-8">
-			<h2 class="mt-4">What We Do</h2>
-			<b>Service Provider / Supplier</b>
-			<li>Design &amp; Supply spares for Fuel Firing Systems, controls and Instruments</li>
-			<li>Supply of fuel firing equipments for power and industrial boilers of various capacity as per customer's pecifications / drawing / used equipments</li>
-			<li>Erection &amp; Commissioning supervision for power industrial boiler of fuel firing systems, controls and instruments etc..,</li>
-			<b>Automated Gates / Carage Doors / Automated Shutter</b>
-			<li>Automatic Swing, Sliding Gates &amp; Carage Doors</li>
-			<li>Electric Locking System</li>
-			<b>CCTV</b>
-			<li>CCTV security system installation and services</li>
-			<li>Video door Phones installation</li>
-			<b>Interior</b>
-			<li>False Ceiling</li>
-			<li>Wooden Interior Designs</li>
-			<b>Electrical Works</b>
-			<li>For Home, Office, Shops, Schools &amp; Colleges</li>
-			<li>Electrical Remote Systems</li>
-        </div>
-        <div id="contact" class="col-sm-4">
-          <h2 class="mt-4">Contact Us</h2>
-          <address>
-            <strong>MM Engineers Trichy</strong>
-			<br>2/35, Jeevanantham St,
-			<br>Oil Mill Bus Stop,
-			<br>Trichy - 10
-            <br>
-          </address>
-          <address>
-            <abbr title="Phone">P:</abbr>
-            +91 - 90942 33664
-            <br>
-            <abbr title="Email">E:</abbr>
-			<a href="mailto:mmengineerstrichy@gmail.com">mmengineerstrichy@gmail.com</a>
-          </address>
-        </div>
-      </div>
-      <!-- /.row -->
+		  <h2 class="mt-4">Our Services</h2>
+		  <div class="row">
 
-	  <h2 id="portfolio" class="mt-4">Portfolio</h2>
-	  <div class="row">
-		  <div class="col-sm-4 my-4">
-          <div class="card">
-            <img class="card-img-top" src="./images/int1.jpg" alt="">
-            <div class="card-body">
-				<h4 class="card-title">Living Room</h4>
-			  <!-- <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>-->
-            </div>
-            <!--<div class="card-footer">
-              <a href="#" class="btn btn-primary">Find Out More!</a>
-		  </div>-->
-		</div>
-        </div>
-        <div class="col-sm-4 my-4">
-          <div class="card">
-            <img class="card-img-top" src="./images/int2.jpg" alt="">
-            <div class="card-body">
-				<h4 class="card-title">Modern Kitchen</h4>
-			</div>
-          </div>
-        </div>
-        <div class="col-sm-4 my-4">
-          <div class="card">
-            <img class="card-img-top" src="./images/int3.jpg" alt="">
-            <div class="card-body">
-				<h4 class="card-title">Classic Kitchen</h4>
-			</div>
-          </div>
-        </div>
-        <div class="col-sm-4 my-4">
-          <div class="card">
-            <img class="card-img-top" src="./images/int4.jpg" alt="">
-            <div class="card-body">
-				<h4 class="card-title">TV Case</h4>
-			</div>
-          </div>
-        </div>
-        <div class="col-sm-4 my-4">
-          <div class="card">
-            <img class="card-img-top" src="./images/int5.jpg" alt="">
-            <div class="card-body">
-				<h4 class="card-title">Hall</h4>
-			</div>
-          </div>
-        </div>
-        <div class="col-sm-4 my-4">
-          <div class="card">
-            <img class="card-img-top" src="./images/int6.jpg" alt="">
-            <div class="card-body">
-				<h4 class="card-title">Big Modern Kitchen</h4>
-			</div>
-          </div>
-        </div>
-
-      </div>
-	  <!-- /.row -->
-
-	  <h2 id="portfolio" class="mt-4">Current Projects</h2>
-	  <div class="row">
-		  <div class="col-sm-6 my-6">
-			  <div class="card">
-
-				  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-					  <ol class="carousel-indicators">
-						  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-						  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-						  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-					  </ol>
-					  <div class="carousel-inner" role="listbox">
-						  <div class="carousel-item active small" style="background-image: url('./images/1_boiler.jpg')">
-							  <div class="carousel-caption d-none d-md-block">
-							  </div>
-						  </div>
-						  <div class="carousel-item small" style="background-image: url('./images/2_boiler.jpg')">
-							  <div class="carousel-caption d-none d-md-block">
-							  </div>
-						  </div>
-						  <div class="carousel-item small" style="background-image: url('./images/3_boiler.jpg')">
-							  <div class="carousel-caption d-none d-md-block">
-							  </div>
+			  <div class="col-md-3">
+				  <div class="view overlay">
+					  <div class="card services_logo">
+						  <img src="images/services/electrical.jpg" class="img-fluid " alt="">
+						  <div class="card-body">
+							  <h4 class="card-title">Electricals</h4>
 						  </div>
 					  </div>
-					  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-						  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					  </a>
-					  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-						  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-					  </a>
-				  </div>
-
-				  <div class="card-body">
-					  <h4 class="card-title">Super Critical Boiler</h4>
-					  <p class="card-text">Styrofoam or foam pattern for coal firing system (First time in India)</p>
+					  <div class="mask flex-center rgba-red-strong">
+						  <p class="white-text">Electrical works from fitting to wiring</p>
+					  </div>
 				  </div>
 			  </div>
+
+			  <div class="col-md-3">
+				  <div class="view overlay">
+					  <div class="card services_logo">
+						  <img src="images/services/home_auto.jpg" class="img-fluid " alt="">
+						  <div class="card-body">
+							  <h4 class="card-title">Home Automation</h4>
+						  </div>
+					  </div>
+					  <div class="mask flex-center rgba-red-strong">
+						  <p class="white-text">Automatic Swing, Sliding Gates &amp; Carage Doors and Electronic locking system</p>
+					  </div>
+				  </div>
+			  </div>
+
+			  <div class="col-md-3">
+				  <div class="view overlay">
+					  <div class="card services_logo">
+						  <img src="images/services/intr_designs.jpg" class="img-fluid " alt="">
+						  <div class="card-body">
+							  <h4 class="card-title">Interiors</h4>
+						  </div>
+					  </div>
+					  <div class="mask flex-center rgba-red-strong">
+						  <p class="white-text">Interior designing for kitchen, hall, and entire house</p>
+					  </div>
+				  </div>
+			  </div>
+
+			  <div class="col-md-3">
+				  <div class="view overlay">
+					  <div class="card services_logo">
+						  <img src="images/services/cctv.jpg" class="img-fluid " alt="">
+						  <div class="card-body">
+							  <h4 class="card-title">CCTV</h4>
+						  </div>
+					  </div>
+					  <div class="mask flex-center rgba-red-strong">
+						  <p class="white-text">CCTV Installation and Service</p>
+					  </div>
+				  </div>
+			  </div>
+
+			  <div class="col-md-3">
+				  <div class="view overlay">
+					  <div class="card services_logo">
+						  <img src="images/services/networking.jpeg" class="img-fluid " alt="">
+						  <div class="card-body">
+							  <h4 class="card-title">Networking</h4>
+						  </div>
+					  </div>
+					  <div class="mask flex-center rgba-red-strong">
+						  <p class="white-text">Home, Office and School Networking and infrastructure services</p>
+					  </div>
+				  </div>
+			  </div>
+
+			  <div class="col-md-3">
+				  <div class="view overlay">
+					  <div class="card services_logo">
+						  <img src="images/services/burner_parts.jpg" class="img-fluid " alt="">
+						  <div class="card-body">
+							  <h4 class="card-title">Burner Spares</h4>
+						  </div>
+					  </div>
+					  <div class="mask flex-center rgba-red-strong">
+						  <p class="white-text">Supply of fuel firing equipments for power and industrial boilers of various capacity</p>
+					  </div>
+				  </div>
+			  </div>
+
+			  <div class="col-md-3">
+				  <div class="view overlay">
+					  <div class="card services_logo">
+						  <img src="images/services/blue_sheets.jpg" class="img-fluid " alt="">
+						  <div class="card-body">
+							  <h4 class="card-title">Sheet Roofing</h4>
+						  </div>
+					  </div>
+					  <div class="mask flex-center rgba-red-strong">
+						  <p class="white-text">Sheet roofing as per the customer requirement for best price</p>
+					  </div>
+				  </div>
+			  </div>
+
+			  <div class="col-md-3">
+				  <div class="view overlay">
+					  <div class="card services_logo">
+						  <img src="images/services/student_projects.jpg" class="img-fluid " alt="">
+						  <div class="card-body">
+							  <h4 class="card-title">Students Projects</h4>
+						  </div>
+					  </div>
+					  <div class="mask flex-center rgba-red-strong">
+						  <p class="white-text">Projects for School and College students with proper training</p>
+					  </div>
+				  </div>
+			  </div>
+
+			  <div class="col-md-3">
+				  <div class="view overlay">
+					  <div class="card services_logo">
+						  <img src="images/services/netlon.jpg" class="img-fluid " alt="">
+						  <div class="card-body">
+							  <h4 class="card-title">Mosquito Netlon</h4>
+						  </div>
+					  </div>
+					  <div class="mask flex-center rgba-red-strong">
+						  <p class="white-text">Mosquito Netlon for Home and Offices with user preferred way</p>
+					  </div>
+				  </div>
+			  </div>
+
+			  <div class="col-md-3">
+				  <div class="view overlay">
+					  <div class="card services_logo">
+						  <img src="images/services/home_jet_clean.jpeg" class="img-fluid " alt="">
+						  <div class="card-body">
+							  <h4 class="card-title">Home Jet Cleaning</h4>
+						  </div>
+					  </div>
+					  <div class="mask flex-center rgba-red-strong">
+						  <p class="white-text">Indoor and Outdoor jet cleaning for house and office</p>
+					  </div>
+				  </div>
+			  </div>
+
+			  <div class="col-md-3">
+				  <div class="view overlay">
+					  <div class="card services_logo">
+						  <img src="images/services/silicon_sealing.jpg" class="img-fluid " alt="">
+						  <div class="card-body">
+							  <h4 class="card-title">Silicone Sealing</h4>
+						  </div>
+					  </div>
+					  <div class="mask flex-center rgba-red-strong">
+						  <p class="white-text">Silicone sealing for home and offices</p>
+					  </div>
+				  </div>
+			  </div>
+
+			  <div class="col-md-3">
+				  <div class="view overlay">
+					  <div class="card services_logo">
+						  <img src="images/services/ac_service.jpg" class="img-fluid " alt="">
+						  <div class="card-body">
+							  <h4 class="card-title">AC Service</h4>
+						  </div>
+					  </div>
+					  <div class="mask flex-center rgba-red-strong">
+						  <p class="white-text">All kind of services required for your AC - Fitting, relocation, gas filling, cleaningm and AMC</p>
+					  </div>
+				  </div>
+			  </div>
+
+
 		  </div>
 
-      </div>
-	  <!-- /.row -->
 
-	 <br/>
-	  <h2 id="portfolio" class="mt-4">Our Clients</h2>
-	  <div class="row">
-		  <div class="col-sm-4 my-4">
-			  <div class="card">
-				  <img class="card-img-top" src="./images/cli/doosan.jpg" alt="Doosan">
+		  <div class="row">
+			  <div id="burner_spares" class="col-sm-8 nav-div">
+				  <h2 class="mt-4">Burner Spares</h2>
+				  <b>Service Provider / Supplier</b>
+				  <li>Design &amp; Supply spares for Fuel Firing Systems, controls and Instruments</li>
+				  <li>Round burners, oil guns, styrofoam pattern making, ignitors filter assy... etc</li>
+				  <li>Supply of fuel firing equipments for power and industrial boilers of various capacity as per customer's pecifications / drawing / used equipments</li>
 			  </div>
 		  </div>
-		  <div class="col-sm-4 my-4">
-			  <div class="card">
-				  <img class="card-img-top" src="./images/cli/sigma.jpg" alt="Sigma">
+
+
+		  <div class="row">
+			  <div class="col-sm-8">
+				  <h2 id="cctv_system_nw" class="mt-4 nav-head">CCTV/System Networking</h2>
+				  <b>CCTV</b>
+				  <li>CCTV security system installation and services</li>
+				  <li>Video door Phones installation</li>
+				  <b>Networking</b>
+				  <li>Network infrastructure for home, office, schools, colleges and banks</li>
+				  <li>Network services for you existing system</li>
 			  </div>
 		  </div>
+
+		  <div class="row">
+			  <div id="electrical" class="col-sm-8 nav-div">
+				  <h2 class="mt-4">Electricals</h2>
+				  <li>Fitting and Wiring</li>
+				  <li>For Home, Office, Shops, Schools, Colleges &amp; Banks</li>
+				  <li>Electrical Remote Systems</li>
+			  </div>
+		  </div>
+
+		  <div class="row">
+			  <div id="home_automation" class="col-sm-8 nav-div">
+				  <h2 class="mt-4">Home Automation</h2>
+				  <li>Automatic swing and sliding gates</li>
+				  <li>Electrical locking system</li>
+				  <li>Remote system for houses and office</li>
+				  <li>Tank overflow alarm and automation</li>
+				  <li>Automatic water sprinkler system for garden and farms</li>
+				  <li>Automatic outdoor lighting with solar</li>
+			  </div>
+		  </div>
+
+		  <div class="row">
+			  <div id="interiors" class="col-sm-8 nav-div">
+				  <h2 class="mt-4">Interior Works</h2>
+				  <li>False Ceiling</li>
+				  <li>Wooden Interior Designs</li>
+			  </div>
+		  </div>
+
+		  <!-- /.row -->
+
+		  <h2 id="our_projects" class="mt-4">Our Finished Projects</h2>
+		  <div class="row">
+			  <div class="col-sm-4 my-4">
+				  <div class="card">
+					  <img class="card-img-top" src="./images/int1.jpg" alt="">
+					  <div class="card-body">
+						  <h4 class="card-title">Living Room</h4>
+						  <!-- <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>-->
+					  </div>
+					  <!--<div class="card-footer">
+						  <a href="#" class="btn btn-primary">Find Out More!</a>
+					  </div>-->
+				  </div>
+			  </div>
+			  <div class="col-sm-4 my-4">
+				  <div class="card">
+					  <img class="card-img-top" src="./images/int2.jpg" alt="">
+					  <div class="card-body">
+						  <h4 class="card-title">Modern Kitchen</h4>
+					  </div>
+				  </div>
+			  </div>
+			  <div class="col-sm-4 my-4">
+				  <div class="card">
+					  <img class="card-img-top" src="./images/int3.jpg" alt="">
+					  <div class="card-body">
+						  <h4 class="card-title">Classic Kitchen</h4>
+					  </div>
+				  </div>
+			  </div>
+			  <div class="col-sm-4 my-4">
+				  <div class="card">
+					  <img class="card-img-top" src="./images/int4.jpg" alt="">
+					  <div class="card-body">
+						  <h4 class="card-title">TV Case</h4>
+					  </div>
+				  </div>
+			  </div>
+			  <div class="col-sm-4 my-4">
+				  <div class="card">
+					  <img class="card-img-top" src="./images/int5.jpg" alt="">
+					  <div class="card-body">
+						  <h4 class="card-title">Hall</h4>
+					  </div>
+				  </div>
+			  </div>
+			  <div class="col-sm-4 my-4">
+				  <div class="card">
+					  <img class="card-img-top" src="./images/int6.jpg" alt="">
+					  <div class="card-body">
+						  <h4 class="card-title">Big Modern Kitchen</h4>
+					  </div>
+				  </div>
+			  </div>
+
+		  </div>
+		  <!-- /.row -->
+
+		  <h2 class="mt-4">Pattern Making</h2>
+		  <div class="row">
+			  <div class="col-sm-6 my-6">
+				  <div class="card">
+
+					  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+						  <ol class="carousel-indicators">
+							  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+							  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+							  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+						  </ol>
+						  <div class="carousel-inner" role="listbox">
+							  <div class="carousel-item active small" style="background-image: url('./images/1_boiler.jpg')">
+								  <div class="carousel-caption d-none d-md-block">
+								  </div>
+							  </div>
+							  <div class="carousel-item small" style="background-image: url('./images/2_boiler.jpg')">
+								  <div class="carousel-caption d-none d-md-block">
+								  </div>
+							  </div>
+							  <div class="carousel-item small" style="background-image: url('./images/3_boiler.jpg')">
+								  <div class="carousel-caption d-none d-md-block">
+								  </div>
+							  </div>
+						  </div>
+						  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+							  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						  </a>
+						  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+							  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+						  </a>
+					  </div>
+
+					  <div class="card-body">
+						  <h4 class="card-title">Super Critical Boiler</h4>
+						  <p class="card-text">Styrofoam or foam pattern for coal firing system (First time in India)</p>
+					  </div>
+				  </div>
+			  </div>
+
+		  </div>
+		  <!-- /.row -->
+
+		  <br/>
+		  <h2 id="portfolio" class="mt-4">Our Clients</h2>
+		  <div class="row">
+			  <div class="col-sm-4 my-4">
+				  <div class="card">
+					  <img class="card-img-top" src="./images/cli/doosan.jpg" alt="Doosan">
+				  </div>
+			  </div>
+			  <div class="col-sm-4 my-4">
+				  <div class="card">
+					  <img class="card-img-top" src="./images/cli/sigma.jpg" alt="Sigma">
+				  </div>
+			  </div>
+			  <div class="col-sm-4 my-4">
+				  <div class="card">
+					  <img class="card-img-top" src="./images/services/morais-city.jpg" alt="Morais City - Trichy">
+				  </div>
+			  </div>
+		  </div>
+		  <!-- /.row -->
+
 	  </div>
-      <!-- /.row -->
+	  <!-- /.container -->
 
-    </div>
-    <!-- /.container -->
+	  <br/>
 
-	<br/>
+	  <!-- Footer -->
+	  <footer class="py-5 my-red-bg">
+	  <div class="container">
+		  <p class="m-0 text-center text-white">Copyright &copy; MM Engineers Trichy <span class='current_year'></span></p>
 
-    <!-- Footer -->
-    <footer class="py-5 my-red-bg">
-      <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; MM Engineers Trichy 2018</p>
+		  <center>
+			  <!-- hitwebcounter Code START -->
+			  <a href="http://www.hitwebcounter.com" target="_blank">
+				  <img src="http://hitwebcounter.com/counter/counter.php?page=6974036&style=0009&nbdigits=9&type=ip&initCount=1000" title="webs counters" Alt="webs counters"   border="0" >
+			  </a>                                        <br/>
+			  <!-- hitwebcounter.com --><a href="http://www.hitwebcounter.com" title="" 
+				  target="_blank" style="font-family: ; 
+				  font-size: px; color: #; text-decoration:  ;"></a>   
+		  </center>
+	  </div>
 
-<center>
-	<!-- hitwebcounter Code START -->
-	<a href="http://www.hitwebcounter.com" target="_blank">
-		<img src="http://hitwebcounter.com/counter/counter.php?page=6974036&style=0009&nbdigits=9&type=ip&initCount=1000" title="webs counters" Alt="webs counters"   border="0" >
-	</a>                                        <br/>
-	<!-- hitwebcounter.com --><a href="http://www.hitwebcounter.com" title="" 
-		target="_blank" style="font-family: ; 
-		font-size: px; color: #; text-decoration:  ;"></a>   
-</center>
-	</div>
+	  <!-- /.container -->
+	  </footer>
 
-      <!-- /.container -->
-    </footer>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	  <!-- Bootstrap core JavaScript -->
+	  <script src="vendor/jquery/jquery.min.js"></script>
+	  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   </body>
 
