@@ -4,9 +4,11 @@ $(document).ready(function() {
 
 	$('.nav-link').on('click', function() {
 		var head_id = $(this).attr('href');
-		var head = $(head_id);
 		$('#navbarResponsive').collapse('hide');
-		$('html,body').animate({scrollTop: head.offset().top - 58 },'slow');
+		if(head_id) {
+			var head = $(head_id);
+			$('html,body').animate({scrollTop: head.offset().top - 58 },'slow');
+		}
 	});
 
 	var hashtag = window.location.hash.substr(1);
