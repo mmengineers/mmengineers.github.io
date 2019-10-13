@@ -11,10 +11,12 @@ $(document).ready(function() {
 		}
 	});
 
-	var hashtag = window.location.hash.substr(1);
-	if(hashtag == 'success') {
-		alert("Thank you for contacting MM Engineers Trichy, we will get back to you within 24 hours!");
-		window.location.hash = '';
-	}
+	$( window ).on( 'hashchange', function( e ) {
+		var hashtag = window.location.hash.substr(1);
+		if(hashtag == 'success') {
+			alert("Thank you for contacting MM Engineers Trichy, we will get back to you within 24 hours!");
+			window.location.hash = '';
+		}
+	});
 });
 
